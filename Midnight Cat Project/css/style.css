@@ -1,0 +1,45 @@
+/* ****************Reset**************** */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* ****************Home**************** */
+.gradient-background {
+  background: linear-gradient(300deg, #5aaaf1, #9af4f8, #6444e6);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* ****************Features**************** */
+img {
+  padding-bottom: 2rem;
+}
+.icon {
+  background-color: white;
+  filter: grayscale();
+}
+.icon:hover {
+  cursor: pointer;
+  transition: filter 0.4s ease-in-out;
+  filter: none;
+}
+/* ****************Pricing**************** */
+#Pricing {
+  height: 100vh;
+}
+#About {
+  background-color: #83b5f3;
+  height: 100vh;
+}
